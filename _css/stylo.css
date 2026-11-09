@@ -1,0 +1,133 @@
+body{
+    background-color:bisque;
+}
+  
+.image{
+     border: 15px solid bisque;
+    width: 20px;
+    height: 40px;
+    box-shadow: 3px 3px #1b49a0;
+    position: relative;
+    transition: linear 0.25s;
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.r1{
+    transform: rotate(5deg);
+     width: 200px;
+    height: 300px;
+   
+}
+.r2{
+    transform: rotate(-5deg);
+     width: 200px;
+    height: 300px;
+}
+.image:hover{
+    transform: rotate(0deg) scale(1.5);
+}
+.square{
+    border-radius: 20px;
+    background-color:#1b49a0;
+    margin-top: 100px;
+    height: 450px;
+     padding: 10px;
+}
+h2{
+    text-align: center;
+    color: bisque;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.menu a{
+    background-color: rgb(43, 110, 168);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: bisque;
+    text-align: center;
+}
+header img{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 765px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.ft1{
+     width: 250px;
+    height: 350px;
+}
+.ft2{
+     width: 250px;
+    height: 350px;
+}
+.ft3{
+    width: 250px;
+    height: 350px;
+}
+.ft4{
+    width: 250px;
+    height: 350px;
+}
+input{
+    border-style: none;
+    background-color: rgb(182, 216, 238);
+    width: 130px;
+    height: 20px;
+}
+textarea{
+    resize: none;
+    background-color: rgb(182, 216, 238);;
+}
+#tabela{
+    border-style: solid;
+    border-color: rgb(10, 30, 119);
+    border-width: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+#contato{
+    text-align: left;
+    font-size: 30px;
+    border-style: solid;
+    border-color: lightyellow;
+    border-width: 10px;
+    width: 50%;
+    margin: auto;
+}
+td{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(182, 216, 238);
+    border-color: rgba(82, 149, 204, 0.486);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(2, 10, 80);
+}
+th{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(91, 135, 201);
+    border-color:rgba(82, 149, 204, 0.486);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: bisque;
+}
+footer{
+    text-align: center;
+}
